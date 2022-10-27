@@ -87,7 +87,7 @@ public class AssignmentSteps {
 
     @And("Select first item")
     public void select_first_item() {
-        driver.findElement(By.xpath("(//div[@class=\"aok-relative\"])[1]")).click();
+        driver.findElement(By.xpath("(//div[@class=\'aok-relative\'])[1]")).click();
     }
     @Then("Add an item to the cart")
    public void add_an_item_to_the_cart() throws InterruptedException {
